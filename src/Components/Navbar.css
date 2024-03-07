@@ -4,11 +4,12 @@
     padding:1rem 0;
     /* background-color: #111827; */
     position: fixed;
-  /* top: 0;
-  left: 0; */
+  top: 0;
+  left: 0;
   width: 100%; /* Make the navbar span the entire width of the viewport */
   background-color: #fff; /* Adjust as per your design */
   z-index: 1000; /* Ensure it's above other elements */
+  border:1px solid gray;
     
 }
 
