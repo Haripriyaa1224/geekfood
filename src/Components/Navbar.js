@@ -1,6 +1,8 @@
 import './Navbar.css'
 
 import { Button } from './Button';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 //to import logo
@@ -16,10 +18,10 @@ function Navbar(){
             <span>GeekFood</span>
             </div>
         <div className="nav-links verticle-center">
-            <div><span>Home</span></div>
-            <div><span>Quote</span></div>
-            <div><span>Restaurant</span></div>
-            <div><span>Foods</span></div>
+            <div><span><Link to="/">Home</Link></span></div>
+            <div><span><Link to="/quote">Quote</Link></span></div>
+            <div><span><Link to="/restaurant">Restaurant</Link></span></div>
+            <div><span><Link to="/foods">Foods</Link></span></div>
             <div><span>Contact</span></div>
         </div>
         <div className="verticle-center">
